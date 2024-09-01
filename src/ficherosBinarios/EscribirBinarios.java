@@ -43,6 +43,7 @@ public static void main (String[] args) {
 
             System.out.print("Introduce número entero. -1 para terminar el programa: ");
             entero = entrada.nextInt();
+            
             while (entero != -1) {
                 //La clase proporciona métodos writeXxx() donde Xxx es el nombre del tipo primitivo.
                 salida.writeInt(entero); //se escribe el número entero en el fichero                                   
