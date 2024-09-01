@@ -32,7 +32,7 @@ public class LeerBinarios {
             //se crea el objeto del tipo DataInputStream
             entrada = new DataInputStream(archivo);
             System.out.println("Inicio del fichero:");
-            System.out.println("==================");
+            System.out.println("==================PRUEBA DE MODIFICACIÓN===========================");
             while (true) {   
                 //La clase proporciona métodos readXxx() donde Xxx es el nombre del tipo primitivo.
                 entero = entrada.readInt();  //se lee  un entero del fichero                                           
